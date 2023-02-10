@@ -79,7 +79,7 @@ const handleSubmit = async (e) => {
 
   // fetch data from server -> bot's response
 
-  const response = await fetch('https://jd-6msf.onrender.com', {
+  const response = await fetch('https://jdchat.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
